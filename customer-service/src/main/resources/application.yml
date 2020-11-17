@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: customer-service-local
+
+server:
+  port: 4567
+  tomcat:
+    max-threads: 5
+
+address-service:
+  url: http://localhost:4568
